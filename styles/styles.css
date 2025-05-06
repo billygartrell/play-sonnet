@@ -54,6 +54,7 @@ a:visited{
     height: 100vh;
     width: 100vw;
     flex-direction:column;
+    padding-bottom:100px;
 }
 
 .wrapper-scale {
@@ -90,6 +91,14 @@ a:visited{
     position: relative;
     flex-grow: 1;
     height:200px;
+}
+
+.illustration-email-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* <- this centers items horizontally */
+  justify-content: center; /* <- optional: centers items vertically if the container has height */
+  text-align: center; /* <- helps with inline elements or text */
 }
 
 /* Border Decorations */
