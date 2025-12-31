@@ -139,9 +139,7 @@ a:visited{
     justify-content: top;
   }
 
-  .traveler-img{
-      height:;
-    }
+  
 
   /* Medium Styles */
   @media screen and (max-width: 900px) {
@@ -151,8 +149,9 @@ a:visited{
 
       } */
 
-      .image-container{
-      height:auto;
+    .image-container{
+      height:246px;
+      width:auto
     }
   }
 
@@ -200,6 +199,11 @@ a:visited{
 
     .mobile-hide{
       display:none;
+    }
+
+    .image-container{
+      height:215px;
+      width:auto
     }
   }
   
